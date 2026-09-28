@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text">Calculadora</h1>
+    <p class="text">Bem-vindo à Calculadora!</p>
+
+    <main class="calculator" aria-label="Calculadora">
+        <img class="calculator-photo" src="calculadora.jpg" alt="Modelo visual da calculadora">
+        <input class="display" type="text" id="display" aria-label="Visor" disabled placeholder="0">
+        <div class="keypad">
+            <button class="btn power" type="button" onclick="limpar()">ON</button>
+            <button class="btn" id="btnLimpar" type="button">C</button>
+            <button class="btn" type="button">%</button>
+            <button class="btn" id="btn1" type="button">1</button>
+            <button class="btn" id="btn2" type="button">2</button>
+            <button class="btn" id="btn3" type="button">3</button>
+            <button class="btn" id="btnSoma" type="button">+</button>
+            <button class="btn" id="btn4" type="button">4</button>
+            <button class="btn" id="btn5" type="button">5</button>
+            <button class="btn" id="btn6" type="button">6</button>
+            <button class="btn" id="btnSubtracao" type="button">-</button>
+            <button class="btn" id="btn7" type="button">7</button>
+            <button class="btn" id="btn8" type="button">8</button>
+            <button class="btn" id="btn9" type="button">9</button>
+            <button class="btn" id="btnMultiplicacao" type="button">x</button>
+            <button class="btn" id="btn0" type="button">0</button>
+            <button class="btn" id="btnIgual" type="button">=</button>
+            <button class="btn" type="button">.</button>
+            <button class="btn" id="btnDivisao" type="button">/</button>
+        </div>
+    </main>
+    <script src="calculadora.js"></script>
+</body>
+</html>
